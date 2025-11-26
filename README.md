@@ -53,15 +53,13 @@ class itemsAdmin(admin.ModelAdmin):
     list_display=["product_name","product_id","product_type","product_price","warranty","return_or_replacement_policy","seller_contact","seller_contact"]
 
 admin.py
-```
 from django.contrib import admin
-
-# Register your models here.
 from .models import items,itemsAdmin
 admin.site.register(items,itemsAdmin)
+
 ```
 ## OUTPUT
-
+![alt text](<Screenshot (14).png>)
 
 
 ## RESULT
